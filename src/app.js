@@ -11,8 +11,8 @@ app.use(
     origin: [
       "http://localhost:5173",
       "http://localhost:5174",
-      "https://feature-flag.netlify.app/",
-      "https://admi-fleature-flag.netlify.app/",
+      "https://feature-flag.netlify.app",
+      "https://admi-fleature-flag.netlify.app",
     ],
     methods: ["GET", "POST", "PUT", "DELETE", "PATCH"],
     allowedHeaders: ["Content-Type", "Authorization"],
